@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" width="1200" height="80">
+  <defs>
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#0ea5e9" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#0ea5e9" stop-opacity="1"/>
+      <stop offset="85%" stop-color="#0ea5e9" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </linearGradient>
+    
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#0ea5e9" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Main divider line -->
+  <line x1="120" y1="40" x2="1080" y2="40" stroke="url(#dividerGrad)" stroke-width="1.5" filter="url(#softGlow)"/>
+  
+  <!-- Center glow -->
+  <circle cx="600" cy="40" r="70" fill="url(#centerGlow)" filter="url(#softGlow)"/>
+  
+  <!-- Accent nodes -->
+  <g fill="#0ea5e9" opacity="0.5" filter="url(#softGlow)">
+    <circle cx="250" cy="40" r="2.5"/>
+    <circle cx="950" cy="40" r="2.5"/>
+    <circle cx="350" cy="38" r="2"/>
+    <circle cx="850" cy="42" r="2"/>
+    <circle cx="450" cy="40" r="1.5"/>
+    <circle cx="750" cy="40" r="1.5"/>
+    <circle cx="550" cy="40" r="1"/>
+    <circle cx="650" cy="40" r="1"/>
+  </g>
+  
+  <!-- End caps -->
+  <g fill="#0ea5e9" opacity="0.6" filter="url(#softGlow)">
+    <circle cx="120" cy="40" r="4"/>
+    <circle cx="1080" cy="40" r="4"/>
+  </g>
+  
+  <!-- Subtle particles -->
+  <g fill="#0ea5e9" opacity="0.2">
+    <circle cx="200" cy="38" r="1.5"/>
+    <circle cx="400" cy="42" r="1"/>
+    <circle cx="500" cy="39" r="1.5"/>
+    <circle cx="700" cy="41" r="1"/>
+    <circle cx="800" cy="38" r="1.5"/>
+    <circle cx="1000" cy="42" r="1"/>
+  </g>
+</svg>
