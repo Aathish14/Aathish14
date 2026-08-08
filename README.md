@@ -4,18 +4,6 @@
   <img src="https://raw.githubusercontent.com/Aathish14/Aathish14/main/assets/hero-banner.svg" alt="Aathish Rao A B — AI & Systems Engineer" width="100%">
 </p>
 
-<h1 align="center">Aathish Rao A B</h1>
-
-<p align="center">
-  <strong>AI & Systems Engineer</strong> — Building reliable AI systems, high-performance software, and measurable ML infrastructure.
-</p>
-
-<p align="center">
-  <a href="https://github.com/Aathish14"><img src="https://img.shields.io/badge/GitHub-Aathish14-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub"></a>
-  <a href="https://www.linkedin.com/in/aathish-rao-a-b-881708298"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn"></a>
-  <a href="mailto:aathishrao@gmail.com"><img src="https://img.shields.io/badge/Email-aathishrao@gmail.com-EA4335?logo=gmail&logoColor=white&style=for-the-badge" alt="Email"></a>
-</p>
-
 ---
 
 ## About
@@ -55,7 +43,7 @@ LLM evaluation framework for **evaluating, monitoring, and benchmarking LLMs** a
 ---
 
 ### 03 — crypto-trading-openenv
-**RL / ML · Python · Gymnasium · FastAPI · Docker · NVIDIA Nemotron-3**
+**RL / ML · Python · Gymnasium · FastAPI · Docker · NVIDIA Nemotron-3-Super-120B**
 
 Reinforcement learning environment for multi-asset crypto trading (BTC, ETH, BNB, XRP, LTC) on 5-min OHLCV data. Dockerized for Hugging Face Spaces with Chart.js dashboard.
 
@@ -150,4 +138,8 @@ Reinforcement learning environment for multi-asset crypto trading (BTC, ETH, BNB
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Aathish14/Aathish14/main/assets/footer-divider.svg" alt="" width="60%">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Aathish14/Aathish14/main/assets/engineering-proof.svg" alt="Engineering Proof" width="100%">
 </p>
